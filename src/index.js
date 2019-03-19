@@ -47,6 +47,4 @@ module.exports = function getZerosCount(number, base) {
   }
   finalResult = Math.min(Math.floor(resultZerosInBase/systemBaseFind,10),Math.floor(resultZerozInBaseTwo/baseInTwoSystem,10));
   return finalResult;
-}
-/* console.log(getZerosCount(10,10)); */
- 
+} 
